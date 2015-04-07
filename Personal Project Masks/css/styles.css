@@ -1,0 +1,62 @@
+/* GENERAL */
+html, body {
+	height:100%; 
+	overflow: hidden;
+}
+
+body {
+	background-color:#999;
+}
+
+.container_16 {
+	margin-top: 2%;
+}
+
+.first,
+form p {
+	margin-bottom: 0px;
+}
+
+form select {
+	margin-bottom: 20px;
+}
+
+#container {
+	margin:0px auto;
+	width:1024px;
+}
+
+body.goJS {
+	background-color: #999;
+}
+
+body.goJS > div {
+     position:absolute;
+     width:800px;
+     height:100px;
+     z-index:15;
+     top:50%;
+     left:50%;
+     margin:-50px 0 0 -400px;
+}
+
+body.goJS h1 {
+	font-size: 800%;
+	line-height: 100px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.hide {
+	display:none;
+	visibility: hidden;
+}
+
+.show {
+	display:block;
+	visibility: visible;
+}
+
+.small {
+	font-size: 11px;
+}
