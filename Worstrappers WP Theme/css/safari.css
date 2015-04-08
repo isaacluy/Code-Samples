@@ -1,0 +1,7 @@
+/* SMALL FIXES FOR THE SAFARI BROWSER */
+.tab-content,
+section#categories,
+section#archives,
+section#contact {
+	width: 299px;
+}

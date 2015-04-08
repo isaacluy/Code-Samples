@@ -1,0 +1,11 @@
+/* SMALL FIXES FOR THE FIREFOX BROWSER */
+.tab-content,
+section#categories,
+section#archives,
+section#contact {
+	width: 298px;
+}
+
+ul.popular_posts_bars li {
+	height: 43px;
+}

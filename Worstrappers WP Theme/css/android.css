@@ -1,0 +1,10 @@
+/* SMALL FIXES FOR THE ANDROID BROWSER */
+#videos_container .video_title h3,
+#videos_container .video_title h3 a {
+	width: 500px!important;
+}
+
+#videos_container .video_title p {
+	display: none;
+	visibility: hidden;
+}
