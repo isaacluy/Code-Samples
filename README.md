@@ -13,3 +13,24 @@ I'll try to start uploading more awesome/newer code soon! =)
 * http://goo.gl/u7iZ1X
 * http://goo.gl/Gr1JbZ
 * http://goo.gl/apzjVM
+
+
+**PHP and Wordpress:** 
+
+* http://goo.gl/SxO06O
+* http://goo.gl/h3S51n
+* http://goo.gl/NWDCZO
+
+
+**CSS:** 
+
+* http://goo.gl/stQXfP
+* http://goo.gl/JNkbLm
+
+
+**HTML:** 
+
+* http://goo.gl/SxO06O
+* http://goo.gl/h3S51n
+* http://goo.gl/NWDCZO
+
