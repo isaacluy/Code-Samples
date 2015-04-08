@@ -1,0 +1,572 @@
+/* GENERAL */
+body {
+	background: url("../images/background.png") repeat scroll center top #EFEFEF;
+	color: #323232;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	font-size: 16px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+a {
+	color: #000;
+	display:block;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+h2, h3, h4, #slogan {
+	clear:left;
+	font-family: "bebas-neue", Arial, "MS Trebuchet", sans-serif;
+	font-size:30px;
+	font-weight: normal;
+	margin-top:0px;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #9DCB3B;
+	font-size:26px;
+}
+
+h4 {
+	font-size:22px;
+}
+
+#slogan {
+	font-size:26px;
+}
+
+/* END GENERAL*/
+/* TOP BAR */
+
+#top {
+	background-color: #DDD;
+	border-bottom:6px solid #9DCB3B;
+	padding-bottom:15px;
+	-webkit-box-shadow: 1px 1px 5px 1px #AAA;
+	-moz-box-shadow: 1px 1px 5px 1px #AAA;
+	box-shadow: 1px 1px 5px 1px #AAA;
+}
+
+#language {
+	height:20px;
+	margin-bottom:20px;
+}
+
+#language a {
+	float:right;
+	height:20px;
+	margin-left:10px;
+	text-indent:-9999px;
+	width:30px;
+}
+
+#language a#english {
+	background: url("../images/sprite.png") no-repeat scroll -2px -234px;
+}
+
+#language a#spanish {
+	background: url("../images/sprite.png") no-repeat scroll -134px -234px;
+}
+
+#language a#portuguese {
+	background: url("../images/sprite.png") no-repeat scroll -47px -234px;
+}
+
+#language a#french {
+	background: url("../images/sprite.png") no-repeat scroll -91px -234px;
+}
+
+#top #language {
+	margin-bottom:0px;
+	padding-top: 10px;
+}
+
+#top h1#logo {
+	background: url("../images/sprite.png") no-repeat 0px -15px;
+	clear:both;
+	margin-bottom: 0px;
+	text-indent: -9999px;
+}
+
+#top h1#logo a {
+	height:100px;
+}
+
+/* MENU ON TOP BAR */
+
+#top{
+	height:130px;
+}
+
+#top h1#logo,
+#top #menu {
+	height:100px;
+}
+
+
+#top #menu ul {
+	float: right;
+	list-style: none;
+	margin-top: 28px;
+}
+
+#top #menu ul li {
+	float:left;
+	margin: 0px 3px;
+}
+
+#submenu a,
+#top #menu ul li a {
+	background: url("../images/sprite.png") no-repeat -235px -138px;
+	background-color:#A7D83D;
+	font-family: "bebas-neue", Arial, "MS Trebuchet", sans-serif;
+	font-size: 16px;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	width:100px;
+	-moz-border-radius: 1em 1em 1em 1em;
+	border-radius: 1em 1em 1em 1em;
+}
+
+#top #menu ul li a:hover,
+#top #menu ul li a.current {
+	background: url("../images/sprite.png") no-repeat -35px -138px;
+	background-color:#89B332;
+	text-shadow: none;
+}
+
+#top #menu ul li a.current {
+	color: rgba(0,0,0,0.6);
+}
+
+#top #menu ul li#index a {
+	width:70px;
+}
+
+#top #menu ul li#quienes_somos a {
+	width:120px;
+}
+
+/* END MENU ON TOP BAR */
+/* END TOP BAR */
+
+#middle {
+	margin-bottom: 100px;
+}
+
+/* FOOTER */
+
+#footer {
+	background-color: #9DCB3B; /*#DDD; #6A9808;*/
+	border-bottom:1px solid #BBB;
+	border-top:1px solid #BBB;
+	color: #FFF;
+	font-size:14px;
+	padding: 25px 0px;
+	text-shadow: none;
+	-webkit-box-shadow: 1px 1px 5px 1px #AAA;
+	-moz-box-shadow: 1px 1px 5px 1px #AAA;
+	box-shadow: 1px 1px 5px 1px #AAA;
+}
+
+/*SITE MAP*/
+
+#footer #site_map {
+	clear:both;
+	height:200px;
+}
+
+#footer #site_map div {
+	margin: 0px 15px;
+}
+
+#footer #site_map div a {
+	/*color: #323232;*/
+	color: #FFF;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#footer #site_map div a:hover {
+	text-decoration: underline;
+}
+
+#footer #site_map div > a {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#footer #site_map div ul {
+	list-style: none;
+}
+
+#footer #site_map div ul li {
+	margin:0px;
+}
+
+/*END SITE MAP*/
+
+#footer p#copyright {
+	margin-top: 20px;
+	text-align: center;
+}
+
+/* END FOOTER*/
+/* INDEX PAGE */
+body.index #middle #carrousel {
+	/*background: url("../images/image02a.png") repeat scroll -100px 0px;*/
+	height:350px;
+	margin-bottom: 40px;
+	overflow: hidden;
+	position: relative;
+}
+
+body.index #middle #carrousel img {
+	left: 0px;
+	position: absolute;
+	top: 0px;
+}
+
+body.index #middle #content .button {
+	background-color: #DDD;
+	cursor: pointer;
+	height:100px;
+	line-height:100px;
+	margin-right: 16px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+body.index #middle #content div#button01 {
+	margin-left:0px;
+}
+
+body.index #middle #content div#button02 {
+}
+
+body.index #middle #content div#button03 {
+}
+
+body.index #middle #content div#button04 {
+	margin-right: 0px;
+}
+
+/* END INDEX PAGE */
+/* QUIENES SOMOS */
+#photo {
+	height:300px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+#photo.mision,
+#photo.contacto.venezuela {
+	background: url("../images/mision.png") no-repeat scroll transparent 0px 0px;
+}
+#photo.vision,
+#photo.contacto.argentina {
+	background: url("../images/vision.png") no-repeat scroll transparent 0px 0px;
+}
+#photo.valores,
+#photo.contacto.uruguay {
+	background: url("../images/valores.png") no-repeat scroll transparent 0px 0px;
+}
+#photo.objetivos,
+#photo.presencia {
+	background: url("../images/objetivos.png") no-repeat scroll transparent 0px 0px;
+}
+
+#photo.noticias,
+#photo.contacto.usa {
+	background: url("../images/noticias.png") no-repeat scroll transparent 0px 0px;
+}
+
+#photo.contacto.brasil {
+	background: url("../images/contacto.png") no-repeat scroll transparent 0px 0px;
+}
+
+#submenu {
+	height:200px;
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+#submenu a {
+	background-color:#A7D83D;
+	background-image: none;
+	border-left: 1px solid #89B332;
+	border-right: 1px solid #89B332;
+	border-top:1px solid #89B332;
+	font-size: 18px;
+	width:inherit;
+	-moz-border-radius: 0em 0em 0em 0em;
+	border-radius: 0em 0em 0em 0em;
+}
+
+#submenu a:hover,
+#submenu a.current {
+	background-color:#89B332;
+}
+
+#submenu a.last {
+	border-bottom:1px solid #89B332;
+}
+
+body.quienes_somos .prefix_3,
+body.productos .prefix_3,
+body.noticias .prefix_3,
+body.contacto .prefix_3 {
+	margin-left: 190px;
+	padding-left: 0px;
+}
+
+body.quienes_somos #content > h2,
+body.productos #content > h2,
+body.noticias #content > h2,
+body.contacto #content > h2 {
+	border-bottom: 1px solid #999;
+}
+
+body.quienes_somos #content div.last {
+/*	font-family: "bebas-neue", Arial, "MS Trebuchet", sans-serif;*/
+	width:758px;
+}
+
+/* END QUIENES SOMOS */
+/* PRODUCTOS */
+
+body.productos #content div.grid_5 {
+	margin: 20px;
+}
+
+body.productos #content div.grid_5 div.photo {
+	/*border: 1px solid #000;
+	border-bottom:none;*/
+	height: 100px;
+}
+
+body.productos #content div.grid_5 div.content {
+/*	border: 1px solid #000;
+	border-top:none;*/
+	padding:5px 10px;
+	background-color:rgba(167, 216, 61, 0.1);
+}
+
+body.productos #content div.grid_5 div.content.current {
+	background-color:rgba(167, 216, 61, 0.35);
+}
+
+body.productos #content div.grid_5 div.content h3 {
+	margin-bottom: 10px;
+}
+
+body.productos #content div.grid_5 div.content h3 a {
+	color: #9DCB3B;
+}
+
+body.productos #content div.grid_5 div.content ul {
+	list-style: none;
+}
+
+body.productos #content div.grid_5 div.content ul li {
+	margin-left: 20px;
+}
+
+body.productos #content div.grid_5 div.content ul li a {
+	background:url("../images/sprite.png") no-repeat scroll 0px -280px;
+	line-height: 20px;
+	margin-bottom: 8px;
+	text-indent: 28px;
+}
+
+body.productos #content div.grid_5 div.content ul li a:hover {
+	color:#9DCB3B;
+	text-decoration: underline;
+}
+
+/*body.productos #content div.grid_5 div.content p a {
+	display:inline;
+}
+
+body.productos #content div.grid_5 div.content p a:hover {
+	color:#9DCB3B;
+	text-decoration: underline;
+}
+*/
+
+/* END PRODUCTOS */
+/* NOTICIAS */
+body.noticias #content div.rssFeed div.rssHeader {
+	display: none!important;
+	visibility: hidden!important;
+}
+
+body.noticias #content div.rssFeed div.rssBody ul {
+	list-style: none;
+}
+
+body.noticias #content div.rssFeed div.rssBody ul li {
+	padding:20px;
+}
+
+body.noticias #content div.rssFeed div.rssBody ul li.odd {
+	background-color: rgba(167,216,61,0.1);
+	/*background-color: rgba(137,179,50,0.1);*/
+}
+
+body.noticias #content div.rssFeed div.rssBody ul li h4 {
+	background:url("../images/sprite.png") no-repeat scroll 0px -280px;
+	font-size: 22px;
+	height: 22px;
+	line-height: 22px;
+	margin-bottom: 0px;
+	text-indent: 25px;
+}
+
+body.noticias #content div.rssFeed div.rssBody ul li p,
+body.noticias #content div.rssFeed div.rssBody ul li div {
+	margin-left: 25px;
+	margin-bottom: 0px;
+}
+
+body.noticias #content .back_to_top {
+	float: right;
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+
+/* END NOTICIAS */
+/* CONTACTO */
+/*body.contacto #paises {
+	margin-top:8px;
+}
+
+body.contacto #paises a {
+	background-color: #A7D83D;
+	border-bottom: 1px solid #89B332;
+	border-left: 1px solid #89B332;
+	border-right: 1px solid #89B332;
+	font-family: "bebas-neue", Arial, "MS Trebuchet", sans-serif;
+	font-size: 18px;
+	height:35px;
+	line-height:35px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+body.contacto #paises a:first-child {
+	border: 1px solid #89B332;
+}
+
+body.contacto #paises a:hover,
+body.contacto #paises a.current {
+	background-color:#89B332;
+}*/
+body.contacto #content #submenu {
+	position: fixed; /*test*/
+	left:350px;
+}
+
+body.contacto #content h3 {
+	padding:0px 0px 0px 10px;
+}
+
+body.contacto #content div.pais {
+	margin-bottom:20px;
+}
+
+body.contacto #content div.grid_13 div {
+	background-color: #A7D83D;
+	margin-left: 45px;
+	position: relative;
+	-moz-border-radius: 0.5em 0.5em 0.5em 0.5em;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+body.contacto #content div.grid_13 div div.logo {
+	background: url("../images/sprite.png") no-repeat scroll transparent 0px -350px;
+	height: 40px;
+	left:-65px;
+	position: absolute;
+	top:-20px;
+	width: 40px
+}
+
+body.contacto #content div.grid_13 div p {
+	color:#FFF;
+	font-size: 18px;
+	margin:10px 0px 10px 25px;
+	position: relative;
+	text-shadow: none;
+	z-index: 8888;
+}
+
+body.contacto #content #formulario {
+	margin-bottom: 50px;
+}
+
+body.contacto #content #formulario > p,
+body.contacto #content #formulario form {
+	padding:0px 0px 0px 10px;
+}
+
+form p, form input, form textarea {
+	clear: both;
+	float: left;
+	font-size: 16px;
+	margin: 8px 0px;
+}
+
+/*form input, form textarea {
+	border: 1px solid #000;
+	cursor: pointer;
+	margin-bottom: 12px;
+}*/
+
+form input#pais {
+	text-transform: capitalize;
+}
+
+form p.error {
+	/*background-color: #FBE0E3;*/
+	clear:none;
+	color: red;
+	height: 20px;
+	line-height: 20px;
+	margin:0px 15px;
+	padding: 0px 15px;
+	text-align: center;
+}
+
+/* END CONTACTO */
+/* UTILITIES */
+.bebas {
+	font-family: "bebas-neue", Arial, "MS Trebuchet", sans-serif;
+}
+
+.grey_line {
+	border-bottom: 1px solid #666;
+}
+
+.hide {
+	display:none;
+	visibility: hidden;
+}
+
+.no_padding {
+	padding:0px;
+}
+
+.show {
+	display:block;
+	visibility: visible;
+}
+
+.top_bottom_margin {
+	margin:30px 0px;
+}
+
+/* END UTILITIES */
