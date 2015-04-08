@@ -1,0 +1,292 @@
+/*   
+Theme Name: EXIT Theme
+Theme URI: http://www.theexitshow.com
+Description: Theme for the exit show
+Author: Isaac Luy
+Author URI: http://www.isaacluy.com
+Version: 1
+*/
+
+body {
+	background: url("images/bodybg.png") repeat top left;
+}
+
+a {
+	display: block;
+}
+
+h3 a {
+	color: #444;
+}
+
+.row {
+	/*border: 1px solid black;*/
+	min-height: 20px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+.mgn10 {
+	margin-top: 10px;
+}
+
+.mgn20 {
+	margin-top: 20px;
+}
+
+/*HEADER*/
+
+#header_wrapper {
+	background: url("images/header_bg.png") repeat-y top left;
+	border-bottom: 10px solid #EC1C24;
+}
+
+#header_logo,
+#header_gcc {
+	text-indent: -9999px;
+}
+
+#header_logo {
+	background: url("images/header_logo.png") no-repeat top left;
+	height: 104px;
+	margin: 20px 0px;
+	width: 338px;
+}
+
+#header_gcc {
+	background: url("images/header_gcc.png") no-repeat top left;
+	height: 100px;
+	margin-left: 50px;
+	margin-top: 30px;
+	width: 78px;
+}
+
+/*MIDDLE*/
+
+#middle_wrapper {
+	background: url("images/bg.png") repeat-y top left;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	min-height: 500px;
+}
+
+/*#middle .row #upcoming_shows,
+#middle .row #latest_news {
+	height: 425px;
+}*/
+
+/*#middle .row #upcoming_shows,
+#middle .row #reviews {
+	height: 425px;
+	overflow: scroll;
+}*/
+
+#middle {
+	margin-bottom: 20px;
+}
+
+#middle .row .columns > div {
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+}
+
+#middle .row .columns h3 {
+	text-align: center;
+}
+
+#middle .row .columns .show {
+	/*border-bottom: 1px dotted grey;*/
+	padding: 0px 0px 20px 0px;
+}
+
+#middle .row .columns .show * {
+	text-align: center;
+}
+
+#middle .row .columns .show.first {
+	padding-top: 0px;
+}
+
+/*#middle .row .columns .show.last {
+	border-bottom: none;
+}*/
+
+#middle .row .columns .show .title {
+	margin: 10px 0px;
+}
+
+#middle .row .columns .show p {
+	margin-bottom: 0px;
+}
+
+#middle .row #video_teaser {
+	background: none;
+	padding: 0px
+}
+
+#middle #show_blurb {
+	color: white;
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+#middle #gallery {
+	padding-bottom: 25px;
+}
+
+#middle #gallery .row .columns a {
+	float: left;
+	height: 100px;
+	margin-left: 3px;
+	margin-top: 3px;
+	width: 100px;
+}
+
+#middle #gallery .row .columns a.no-left {
+	margin-left: 0px;
+}
+
+#middle #social_media {
+	background: none;
+	height: 105px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+#middle #social_media a {
+	background: url("images/social_media.png") no-repeat top left;
+	height: 40px;
+	position: absolute;
+	right: 0px;
+	text-indent: -9999px;
+	width: 136px;
+}
+
+#middle #social_media a#facebook {
+	background-position: 0px -50px;
+	top: 60px;
+}
+
+#middle #newsletter h3 {
+	margin-bottom: 10px;
+}
+
+#middle #newsletter #subscribe {
+	font-family: "Oswald", sans-serif;
+}
+
+#middle #newsletter a {
+	margin-bottom: 20px;
+}
+
+/*Lightbox FIX*/
+
+#lightbox .lb-outerContainer,
+#lightbox .lb-dataContainer,
+#lightbox .lb-outerContainer .lb-container,
+#lightbox .lb-outerContainer .lb-container .lb-image {
+	width:640px!important;
+}
+
+/*REVIEWS*/
+#reviews_holder {
+	background-color:#FFF;
+	padding:10px 50px 50px 50px;
+	margin-top:20px;	
+}
+
+#middle .ten.columns.centered > h3 {
+	padding-top: 20px;
+}
+
+#middle #template_main {
+	padding: 40px;
+}
+
+#middle #template_main h3 {
+	margin-bottom: 20px;
+}
+
+#middle #template_main h4 {
+	margin-top: 40px;
+}
+
+#middle #template_main h4:first-child {
+	margin-top: 0px;
+}
+
+#middle #template_main .show_posts_btns {
+	margin-top: 20px;
+}
+
+#middle #template_main .show_post {
+	min-height: 130px;
+	margin-top: 40px;
+}
+
+#middle #template_main .show_post:first-child {
+	margin-top: 0px;
+}
+
+#middle #template_main .show_post div {
+	float:left;
+	width:340px;
+}
+
+#middle #template_main p img.left {
+	float:left;
+	margin:0px 20px 10px 0px;
+}
+
+#middle #template_main p img.right {
+	float:right;
+	margin:0px 0px 10px 20px;
+}
+
+#oac {
+	background:none!important;
+}
+
+#oac h4 {
+	color:white;
+	text-align: center;
+}
+
+.show_post h4 {
+	padding:0px;
+}
+
+#footer {
+	margin-top: 20px;
+}
+
+#footer .columns p {
+	text-align: center;
+}
+
+#footer .columns p a {
+	display: inline;
+}
+
+.page-id-19 #middle #template_main p {
+	font-family: Arial, sans-serif;
+	text-align: justify;
+}
+
+.page-id-19 #middle #template_main p a {
+	display: inline;
+}
+
+.page-id-19 #middle #template_main h4 {
+	margin-top: 0px;
+}
