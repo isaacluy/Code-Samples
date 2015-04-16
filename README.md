@@ -2,18 +2,25 @@
 
 ### Quick Links
 
-**Javascript:** 									**CSS:** 
+**Javascript:** 									
 
-* http://goo.gl/u7iZ1X								* http://goo.gl/stQXfP
-* http://goo.gl/Gr1JbZ								* http://goo.gl/JNkbLm
+* http://goo.gl/u7iZ1X
+* http://goo.gl/Gr1JbZ
 * http://goo.gl/apzjVM
 
 
-**PHP and Wordpress:** 								**HTML:** 
+**PHP and Wordpress:** 
 
-* http://goo.gl/SxO06O								* http://goo.gl/SxO06O
-* http://goo.gl/h3S51n								* http://goo.gl/h3S51n
-* http://goo.gl/NWDCZO								* http://goo.gl/NWDCZO
+* http://goo.gl/SxO06O
+* http://goo.gl/h3S51n
+* http://goo.gl/NWDCZO
+
+
+**CSS and HTML:**
+* http://goo.gl/stQXfP
+* http://goo.gl/SxO06O
+* http://goo.gl/JNkbLm
+* http://goo.gl/h3S51n
 
 
 *My biggest projects (Scion, Toyota, TVO, Winter Olympics, etc.) cannot be posted here because of copyright.*
