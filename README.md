@@ -23,7 +23,7 @@
 * http://goo.gl/h3S51n
 
 
-*My biggest projects (Scion, Toyota, TVO, Winter Olympics, etc.) cannot be posted here because of copyright.*
+*My biggest projects (with John Deere, Scion, Toyota, CanadaHelps, TVO, Winter Olympics, etc.) cannot be posted here because of copyright.*
 
 
 ## Description:
