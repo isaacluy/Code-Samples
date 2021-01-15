@@ -2,7 +2,7 @@
 
 ## Description:
 
-This repo contains some (old) code that I have written in the past. This collection of projects don't reflect my most recent (or best) work but it might still give you a glimpse into the way I (used to) write and organize code.
+This repo contains some code that I have written in the (remote) past. This collection of projects do not reflect my most recent (or best) work but it might still give you a glimpse into the way I (used to) write and organize code.
 
 On my website http://dev.isaacluy.com you can see an overview of my career.
 
