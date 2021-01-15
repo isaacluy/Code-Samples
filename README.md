@@ -1,5 +1,15 @@
 # Code Samples
 
+## Description:
+
+This repo contains some (old) code that I have written in the past. This collection of projects don't reflect my most recent (or best) work but it might still give you a glimpse into the way I (used to) write and organize code.
+
+On my website http://dev.isaacluy.com you can see an overview of my career.
+
+I'll do my best to upload more recent code soon! =)
+
+*My biggest projects (with John Deere, Scion, Toyota, CanadaHelps, TVO, Winter Olympics, etc.) are not included below because of copyright issues.*
+
 ### Quick Links
 
 **Javascript:** 									
@@ -9,7 +19,7 @@
 * http://goo.gl/apzjVM
 
 
-**PHP and Wordpress:** 
+**PHP and Wordpress:**
 
 * http://goo.gl/SxO06O
 * http://goo.gl/h3S51n
@@ -21,18 +31,3 @@
 * http://goo.gl/SxO06O
 * http://goo.gl/JNkbLm
 * http://goo.gl/h3S51n
-
-
-*My biggest projects (with John Deere, Scion, Toyota, CanadaHelps, TVO, Winter Olympics, etc.) cannot be posted here because of copyright.*
-
-
-## Description:
-
-This repo contains some of the code that I have written in the past. These collection of project don't reflect my most recent work but it might still give you a glimpse into the way I write and organize code. 
-
-On my website http://dev.isaacluy.com you can see an overview of my work.
-
-I'll try to start uploading more awesome/newer code soon! =)
-
-
-
