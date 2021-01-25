@@ -2,6 +2,8 @@
 
 ## Description:
 
+*Update: Some newer projects have been added to my github repos [here](https://github.com/isaacluy/theatre-exercises-table) and [here](https://github.com/isaacluy/masks-trainer)*
+
 This repo contains some code that I have written in the (remote) past. This collection of projects do not reflect my most recent (or best) work but it might still give you a glimpse into the way I (used to) write and organize code.
 
 On my website http://dev.isaacluy.com you can see an overview of my career.
